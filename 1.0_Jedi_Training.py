@@ -26,11 +26,12 @@ The last line keeps the window open until you click to close.
 Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=turtle
 '''
 import turtle
+import random
 yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
-screen.bgcolor("white") # colors the screen
+screen.bgcolor("lightblue") # colors the screen
 yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
+yoda.speed(20)  # speed of drawing. Go fast to not waste time.
 yoda.color("black")
 yoda.circle(50)  #head
 yoda.penup()
@@ -51,8 +52,39 @@ yoda.setpos(0,-75)
 yoda.pendown()
 yoda.goto(-75,0)
 yoda.penup()
+yoda.goto(20,45)
+yoda.pendown()
+yoda.circle(10)
+yoda.penup()
+yoda.goto(-20,45)
+yoda.pendown()
+yoda.circle(10)
+
+
+for i in range(300):
+    x=random.randint(-300,300)
+    y = random.randint(-300, 300)
+    yoda.penup()
+    yoda.color("darkblue")
+    yoda.goto(x,y)
+    yoda.pendown()
+    yoda.goto(x-2,y-3)
+
+
+
+'''
+for int in
+    yoda.back(10)
+    }
+'''
+
+
+
+yoda.penup()
 yoda.goto(200,-300)
+yoda.color("black")
 yoda.pencolor("black")
+
 
 
 yoda.write('Thomas Mitchell',font=("Arial", 18, "normal")) # signs your name to your art
