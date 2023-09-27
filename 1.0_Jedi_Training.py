@@ -72,11 +72,6 @@ for i in range(300):
 
 
 
-'''
-for int in
-    yoda.back(10)
-    }
-'''
 
 
 
