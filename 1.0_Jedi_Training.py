@@ -62,7 +62,7 @@ yoda.circle(10)
 
 
 for i in range(300):
-    x=random.randint(-300,300)
+    x = random.randint(-300,300)
     y = random.randint(-300, 300)
     yoda.penup()
     yoda.color("darkblue")
